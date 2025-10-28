@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -12,7 +12,7 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Bed, Crown, Handshake, Linkedin, MessageSquare, Star, Trophy, Users } from 'lucide-react';
+import { Bed, Crown, Handshake, Instagram, Linkedin, MessageSquare, Star, Trophy, Users } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -220,7 +220,7 @@ export default function Home() {
                   url: "https://linkedin.com/in/isabella"
                 },
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/chef.isabella"
                 }
               ]
